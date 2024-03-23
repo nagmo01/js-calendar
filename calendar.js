@@ -29,8 +29,6 @@ function checkOption(){
 }
 
 try {
-
-
   //コマンドライン引数によって取得するdateを変える
   let date = checkOption();
 
@@ -77,6 +75,8 @@ try {
   console.log(" ");
 
 } catch(error){
+
   console.log(error.message);
+
 }
 
